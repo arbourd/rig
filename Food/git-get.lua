@@ -1,5 +1,5 @@
 local name = "git-get"
-local version = "0.2.2"
+local version = "0.2.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "c40d4056c0abc7b536af98bf03a2a957fa8565171ea3abeb6abeaf2799caf929",
+            sha256 = "01150150ee5fca4c9657e8850fe39fffabad33a47637a1c31b23dee421570dd2",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "9f8781b8fd384b574c9f74c00160d515da423568011bad1288efab54e0ab3fb9",
+            sha256 = "c2fd8a8221d0a2799b5db0e78b30dd3bdad3b839ce0cb3395b3b604c02ac23d5",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
-            sha256 = "a6dc8961a5101e372808cd76ae25b32f955773e320060ec8c36f92d23b481115",
+            sha256 = "b84794b7ce39f767372a252441c8c9de756f2daed725d6551073f974e4a34ebb",
             resources = {
                 {
                     path = name .. ".exe",
