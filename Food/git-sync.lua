@@ -1,5 +1,5 @@
 local name = "git-sync"
-local version = "0.1.1"
+local version = "0.1.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/arbourd/git-sync/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "a4afdd4190f4c38424a850b8c08a90d0e9802423517fa14386dd1d4b120bf5b6",
+            sha256 = "e042cedcdbf7b4e37b8a769403e510aa45f339dde155de52e75223e6a301b962",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/arbourd/git-sync/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "f87a6e3d0bb21dcaf760540db4eaadeeeb420d56a31e67f9e580fdc1f87629f4",
+            sha256 = "76ffb7692831532472c73680bf6d55a27e08181175ecd88456eb2086f4e3a1fd",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/arbourd/git-sync/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
-            sha256 = "964d83060e6bbd16ac75a48cbad3fc5617783da4deaeacd094775a5531b644dd",
+            sha256 = "0244f3ddf0eca75f264e0d87a0609c9e4084c7d7f45b33856fdd9f90633fb7fd",
             resources = {
                 {
                     path = name .. ".exe",
