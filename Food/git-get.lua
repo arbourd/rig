@@ -22,10 +22,36 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "153429a87056eb75f91255898724ea71aedb36d9ba4e14a7ad4cb37e0c654ae4",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
             sha256 = "790d190f7ffc39158d3c47daf174be36a11cec6ac56ba4325b0ee4d44748de05",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = "https://github.com/arbourd/git-get/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-arm64.tar.gz",
+            sha256 = "22ea1e88a7e60e6916b05d65f225d04ae38892724259b0b6d01d7405af331917",
             resources = {
                 {
                     path = name,
