@@ -1,5 +1,5 @@
 local name = "trash"
-local version = "0.3.2"
+local version = "0.3.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/arbourd/trashOS/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "bddbb8add6c1a291b573b1bd0bf38399cf2aba98c1d7566e01fbbc9814fe707c",
+            sha256 = "4b7e360ccb33d19402f4a90405fb1e6b8f8903ee21189c905343cc100637acb0",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/arbourd/trashOS/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "a1b1d20f959eeab9496769e20b1de49d81f98ed37cee6eb1f61f1b2ebc156501",
+            sha256 = "54360662d9f0cd63268b2aa87ab18acc3b882796ba76b4b506ca913f5c383754",
             resources = {
                 {
                     path = name,
